@@ -1,0 +1,38 @@
+@import '~office-ui-fabric-react/dist/sass/References.scss';
+
+.helloWorld {
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .title {
+    @include ms-font-xl;
+    @include ms-fontColor-white;
+    @include ms-bgColor-themeDark;
+    padding: 20px;
+    display: block;
+  }
+
+  .subTitle {
+    @include ms-font-l;
+    @include ms-fontColor-themeDark;
+  }
+
+  .description {
+    @include ms-font-l;
+    color: $ms-color-theme-dark;
+  }
+
+  .button {
+    @include ms-Button;
+    @include ms-Button--primary;
+  }
+
+  .label {
+    @include ms-font-l;
+  }
+}
