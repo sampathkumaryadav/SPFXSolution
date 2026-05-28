@@ -1,0 +1,37 @@
+{
+  "name": "spfx-helloworld",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=16.13.0 <17.0.0",
+    "npm": ">=7.0.0 <8.0.0"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "clean": "gulp clean",
+    "test": "gulp test",
+    "serve": "gulp serve",
+    "bundle": "gulp bundle",
+    "package-solution": "gulp package-solution"
+  },
+  "dependencies": {
+    "@microsoft/sp-core-library": "~1.17.0",
+    "@microsoft/sp-lodash-subset": "~1.17.0",
+    "@microsoft/sp-office-ui-fabric-core": "~1.17.0",
+    "@microsoft/sp-webpart-base": "~1.17.0",
+    "@microsoft/sp-component-base": "~1.17.0",
+    "office-ui-fabric-react": "^6.215.0",
+    "react": "~17.0.1",
+    "react-dom": "~17.0.1"
+  },
+  "devDependencies": {
+    "@microsoft/eslint-config-spfx": "~1.17.0",
+    "@microsoft/sp-build-web": "~1.17.0",
+    "@microsoft/sp-module-interfaces": "~1.17.0",
+    "@microsoft/sp-webpart-workbench": "~1.17.0",
+    "@types/react": "~17.0.45",
+    "@types/react-dom": "~17.0.17",
+    "ajv": "~6.12.5",
+    "gulp": "~4.0.2"
+  }
+}

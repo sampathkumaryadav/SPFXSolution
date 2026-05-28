@@ -1,0 +1,33 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/
+
+# Build artifacts
+/dist
+/lib
+/temp
+.cache/
+
+# SPFx artifacts
+/sharepoint
+/solution
+
+# IDE
+.vscode/
+.vs/
+*.suo
+*.user
+*.userprefs
+.DS_Store
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Build
+temp/

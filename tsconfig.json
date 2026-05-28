@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "declaration": true,
+    "outDir": "./lib",
+    "allowJs": false,
+    "noImplicitAny": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/@microsoft"
+    ],
+    "types": [
+      "webpack-env",
+      "jest",
+      "node"
+    ],
+    "lib": [
+      "es5",
+      "dom",
+      "es2015.iterable"
+    ]
+  }
+}
